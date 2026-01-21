@@ -5,7 +5,7 @@
         <AddUser data={data} setData={setData}/>
   </div>
 ---
-
+---
 ## Step - 2
 # Create <AddUser> Componenet
 ```jsx
@@ -137,4 +137,5 @@ const [addData, setAddData] = useState({
       console.error("Error posting data:", error)
     }
   }
+
 ---
